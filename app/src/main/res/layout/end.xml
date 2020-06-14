@@ -7,7 +7,7 @@
 
 
     <LinearLayout
-        android:id="@+id/close"
+        android:id="@+id/motion_trigger_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="56dp"
@@ -33,9 +33,9 @@
         android:layout_marginBottom="16dp"
         android:gravity="center"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/close"
-        app:layout_constraintEnd_toEndOf="@+id/close"
-        app:layout_constraintStart_toStartOf="@+id/close">
+        app:layout_constraintBottom_toTopOf="@+id/motion_trigger_layout"
+        app:layout_constraintEnd_toEndOf="@+id/motion_trigger_layout"
+        app:layout_constraintStart_toStartOf="@+id/motion_trigger_layout">
 
         <ImageView
             android:layout_width="wrap_content"

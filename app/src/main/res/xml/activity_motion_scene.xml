@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@layout/end"
+        motion:constraintSetStart="@layout/start"
+        motion:duration="1000">
+        <KeyFrameSet>
+            <KeyAttribute
+                android:rotationX="45"
+                android:rotationY="45"
+                motion:framePosition="10"
+                motion:motionTarget="@+id/wall_paper" />
+            <KeyAttribute
+                android:rotationX="45"
+                android:rotationY="45"
+                motion:framePosition="80"
+                motion:motionTarget="@+id/wall_paper" />
+
+            <KeyAttribute
+                android:rotationX="45"
+                android:rotationY="45"
+                motion:framePosition="10"
+                motion:motionTarget="@+id/share" />
+            <KeyAttribute
+                android:rotationX="45"
+                android:rotationY="45"
+                motion:framePosition="80"
+                motion:motionTarget="@+id/share" />
+            <KeyAttribute
+                android:rotationX="45"
+                android:rotationY="45"
+                motion:framePosition="10"
+                motion:motionTarget="@+id/edit" />
+            <KeyAttribute
+                android:rotationX="45"
+                android:rotationY="45"
+                motion:framePosition="80"
+                motion:motionTarget="@+id/edit" />
+
+            <KeyAttribute
+                android:rotationX="45"
+                android:rotationY="45"
+                motion:framePosition="10"
+                motion:motionTarget="@+id/download" />
+            <KeyAttribute
+                android:rotationX="45"
+                android:rotationY="45"
+                motion:framePosition="80"
+                motion:motionTarget="@+id/download" />
+
+        </KeyFrameSet>
+
+    </Transition>
+
+
+</MotionScene>
